@@ -305,6 +305,9 @@ $ git remote -v
 # Change the 'origin' remote's URL
 $ git remote set-url origin https://github.com/user/repo.git
 
+# Change the 'origin' remote's URL with token
+$ git remote set-url origin https://<username>:<token>@github.com/user/repo.git
+
 # Add a new 'origin'
 # Usually use to 'rebase' from forks
 $ git remote add [NAME] https://github.com/user/fork-repo.git
